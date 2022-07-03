@@ -1,0 +1,93 @@
+#logo{
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.resized-pic {
+    width: 400px;
+    height: auto;
+    border: #000000 1px solid;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#sidetitletext{
+    color: #393939;
+    font: bold 50px 'Lato';
+    text-decoration: none;
+    margin: 10px;
+}
+
+#sidebodytext{
+    color: #393939;
+    font: bold 20px 'Lato';
+    text-decoration: none;
+    text-align: center;
+}
+
+html{
+    background-color: #f4f0eb;
+}
+
+.top-nav-button{
+    color: #9CAF88;
+    padding: 15px;
+    font: bold 20px 'Raleway';
+    text-decoration: none;
+    
+}
+
+.top-nav-button:hover{
+    color: gray;
+}
+
+.bottom-nav-button:hover{
+    color: gray;
+}
+
+.bottom-nav-button{
+    color: #9CAF88;
+    padding: 10px;
+    font: bold 15px 'Raleway';
+    text-decoration: none;
+}
+
+#bottomnav{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#topnav{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.top-div{
+    display: flex;
+
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+
+#linkedin-button{
+    background-color: #9CAF88;
+    border: none;
+    color: white;
+    font: bold 20px 'Lato';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
