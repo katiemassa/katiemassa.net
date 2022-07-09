@@ -4,7 +4,7 @@
     margin-top: 10px;
 }
 
-.resized-pic {
+.resized-pic{
     width: 400px;
     height: auto;
     border: #000000 1px solid;
@@ -79,15 +79,42 @@ html{
 
 }
 
-#linkedin-button{
+#connect-with-me-button{
     background-color: #9CAF88;
+    font: bold 15px 'Raleway';
+    text-decoration: none;
     border: none;
     color: white;
-    font: bold 20px 'Lato';
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px;
+}
+
+#linkedin-button{
+    width: 75px;
+    height: auto;
+}
+
+#linkedin-button:hover{
+    color: gray;
+}
+
+#email-button{
+    width: 75px;
+    height: auto; 
+    color: black;
+}
+
+#email-button:hover{
+    color: gray;
+}
+
+#instagram-button{
+    width: 75px;
+    height: auto;
+}
+
+#instagram-button:hover{
+    color: gray;
 }
