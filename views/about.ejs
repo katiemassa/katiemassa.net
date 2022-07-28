@@ -7,14 +7,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link rel="icon" type="img/png" href="img/tablogo.png">
+
     </head>
 
     <body>
         <%- include("./partials/nav.ejs")%>
         <hr>
-        <div class="bottom-div">
-            <p>I graduated with Honors and Cum Laude from the University of San Francisco.</p>
+        <div class="top-div">    
+            <div class="about-me-div">
+                <p id="aboutmetitletext">A Little Bit About Me:</p>
+                <p id="aboutmebodytext"> Through my years of undergraduate work at USF, I have learned a vast amount of knowledge in which I am yearning to apply in the real world. 
+                    I have been seeking opportunities to allow me to grow and expand my experience in the marketing and graphic design realm. 
+                    I am a go-getter, a great team worker, and an excellent communicator. I have attached my resume down below to get a more in depth
+                    look at my experience and skills. I am also more than happy to answer any further questions via email since I had to be concise on my resume to fit it all on one page!
+                    Feel free to reach out to my email under the contact tab.
+                </p>
+                <div>
+                    <a href="https://drive.google.com/file/d/1T_AgKOPKYhdSDOus1Pam-ykUaizhwRpM/view?usp=sharing">
+                        <button id="connect-with-me-button">My Resume!</button>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img class="about-me-pic" src="img/aboutmepic.jpg">
+            </div>
         </div>
         <%- include("./partials/bottom_nav.ejs")%>
     </body>
