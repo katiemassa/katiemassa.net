@@ -35,7 +35,7 @@ html{
     padding: 15px;
     font: bold 20px 'Raleway';
     text-decoration: none;
-    
+    cursor: pointer;
 }
 
 .top-nav-button:hover{
@@ -51,6 +51,7 @@ html{
     padding: 10px;
     font: bold 15px 'Raleway';
     text-decoration: none;
+    cursor: pointer;
 }
 
 #bottomnav{
@@ -66,7 +67,6 @@ html{
 
 .top-div{
     display: flex;
-
 }
 
 .content-div{
@@ -90,6 +90,7 @@ html{
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #connect-with-me-button:hover{
@@ -137,94 +138,57 @@ html{
 .contact-div{
     display: flex;
     flex-direction: column;
-    margin: 20px;
     align-items: center;
-    padding-top: 30px;
-    padding-left: 550px;
+    padding: 15px;
+    margin: 15px;
 }
 
-.contact-button-div{
+.contact-button-div {
     position: relative;
 }
 
-#email-button{
-    width: 75px;
-    height: auto; 
-    color: black;
-    align-items: center;
-    padding-left: 575px;
-}
-
-#email-button:hover{
-    color: gray;
-}
-
-#instagram-button{
-    width: 75px;
-    height: auto;
-    color: black;
-    align-items: center;
-    padding-left: 20px;
-    opacity: 1;
-
-}
-
-#instagram-button:hover{
+.contact-button-div > a:hover{
     opacity: 0.5;
 
 }
 
-#linkedin-button{
+.contact-button {
     width: 75px;
     height: auto;
     color: black;
     align-items: center;
-    padding-left: 20px;
-    opacity: 1;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#linkedin-button:hover{
-    opacity: 0.5;
+.contact-button-svg {
+    width: 75px;
 }
+
 
 .title-projects{
     color: #393939;
     font: bold 50px 'Lato';
     text-decoration: none;
     margin: 10px;
-    padding-left: 370px;
+    padding: 10px;
 }
 
-#fall-button{
+.proj-button{
     background-color: #9CAF88;
     font: bold 15px 'Raleway';
     text-decoration: none;
     border: none;
     color: white;
-    padding: 15px 32px;
-    margin-left: 500px;
-    text-align: center;
-    font-size: 16px;
-}
-
-#fall-button:hover{
-    color: gray;
-}
-
-#spring-button{
-    background-color: #9CAF88;
-    font: bold 15px 'Raleway';
-    text-decoration: none;
-    border: none;
-    color: white;
+    margin: 15px;
     padding: 15px;
+    min-width: 20%;
     text-align: center;
     font-size: 16px;
-    margin-bottom: 200px;
+    cursor: pointer;
 }
 
-#spring-button:hover{
+.proj-button:hover {
     color: gray;
 }
 
@@ -240,4 +204,18 @@ html{
     margin: 20px;
     border: 3px solid #9CAF88;
     border-radius: 5px;
+}
+
+.col-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

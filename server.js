@@ -31,7 +31,7 @@ app.get('/contact', (req, res) => {
   res.render('contact');
 });
 
-app.use((req,res) => {
+app.use((req, res) => {
   res.status(404).render('404');
 })
 
