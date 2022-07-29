@@ -219,3 +219,28 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+.alt-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 600px;
+    height: auto;
+}
+
+.proj-text{
+    color: #393939;
+    font: bold 20px 'Lato';
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding-left: 30px;
+    border-style: dashed;
+    border-color: #9CAF88;
+    display: inline-block;
+    margin: 10px;
+    padding: 7px;
+    min-width: 20%;
+}
