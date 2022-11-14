@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <%- include("./partials/head_content.ejs")%>
         <title>Projects – Marketing and Web Design</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="icon" type="img/png" href="img/tablogo.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Raleway:wght@100&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <%- include("./partials/nav.ejs")%>
         <hr>
-        <div class="col-wrapper">
+        <div class="col-wrapper fade-in ">
             <div class="title-projects">
                 <p>Marketing Projects</p>
             </div>
@@ -30,10 +22,10 @@
             </span>
         </div>
         <div>
-            <div class="proj-text">
+            <div class="proj-text fade-in cascade" style="--order: 2">
                 <p>Below I have attached samples of social media posts I have created for a beauty company.</p>
             </div>
-            <div class="gallery-div">
+            <div class="gallery-div fade-in cascade" style="--order: 3">
                 <a>
                     <img src="img/sampleig1.png">
                 </a>

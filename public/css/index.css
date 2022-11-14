@@ -137,7 +137,7 @@ html{
     margin: 1px;
 }
 
-.contact-div{
+.contact-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,10 +149,10 @@ html{
     position: relative;
 }
 
-.contact-button-div > a:hover{
+.contact-button-div > a > svg:hover {
     opacity: 0.5;
-
 }
+
 
 .contact-button {
     width: 75px;
@@ -243,7 +243,68 @@ html{
     border-color: #9CAF88;
 }
 
-.contact-pics > a > img{
+.contact-pics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.fade-in.cascade {
+    animation-delay: calc(var(--order) * 0.2s);
+}
+
+.fade-in-left {
+    animation-name: fade-in-left;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fade-in-right {
+    animation-name: fade-in-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes fade-in-right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.contact-pics > a > img {
     width: 400px;
     height: auto;
     margin: 20px;

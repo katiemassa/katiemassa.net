@@ -1,31 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <%- include("./partials/head_content.ejs")%>
         <title>About – Marketing and Web Design</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link rel="icon" type="img/png" href="img/tablogo.png">
-
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
 
     <body>
         <%- include("./partials/nav.ejs")%>
         <hr>
         <div class="row-wrapper">    
-            <div class="about-me-div">
+            <div class="about-me-div fade-in">
                 <p id="aboutmetitletext">A Little Bit About Me:</p>
                 <p id="aboutmebodytext">
                     Throughout my years of undergraduate work at USF, I have learned a vast amount about marketing, graphic design, and programming in which I am yearning to apply in the real world. 
@@ -37,12 +23,12 @@
                     Feel free to reach out to my email under the contact tab.
                 </p>
                 <div>
-                    <a href="https://drive.google.com/file/d/1T_AgKOPKYhdSDOus1Pam-ykUaizhwRpM/view?usp=sharing">
+                    <a href="https://docs.google.com/document/d/1eiSgyKvA4XwwgB5aIuVA2GDc9E19jEdgbNPvZ5ftvDE/edit?usp=sharing">
                         <button id="connect-with-me-button">My Resume!</button>
                     </a>
                 </div>
             </div>
-            <div>
+            <div class="fade-in-right">
                 <img class="about-me-pic" src="img/aboutmepic.jpg">
             </div>
         </div>
