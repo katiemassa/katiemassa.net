@@ -7,3 +7,6 @@ Personal Website
 
 ## Development
 - Start the webserver with `npm start`
+
+## Pushing to Google Cloud
+- `gcloud app deploy`
