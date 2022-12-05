@@ -6,7 +6,7 @@ Personal Website
 - Install dependencies with `npm install`
 
 ## Development
-- Start the webserver with `npm start`
+- Start the webserver with `npm run dev`
 
 ## Pushing to Google Cloud
 - `gcloud app deploy`
